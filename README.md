@@ -1,13 +1,20 @@
 # Perm2b-AA
 Perm2b-Algebra Abstracta
 
-Integrantes
+**Integrantes**
 
 -Marcelo Torres Acuña
 
--Jhon Berly Taype Alccaccahua
+-Jhon Berly Taype Alccaccahua 
 
 -Brian Bermudez Navarro
 
-El Cifrado Afín
-Este se realizo mediante el lenguaje de programacion python.
+------------
+
+#### **El Cifrado Afín**
+
+
+ Este se realizo mediante el lenguaje de programacion python.  
+  
+ 
+ DESCRIPCIÓN:
