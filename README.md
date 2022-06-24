@@ -23,13 +23,21 @@ RSA.py
 
 #### - Funcionamiento:
 a. Recibe como parámetro un número "K" de bits.
+
 b. Genera dos números primos (p,q) que ocupan la mitad de "K" bits cada uno.
+
 c. Multiplica los números (n=p*q)
+
 d. Halla phiN (phiN = phi(n))
+
 e. phi(n): Halla la cantidad de números coprimos menores a "n" con respecto a "n"
+
 f. Genera un número "e" tal que sea coprimo con phiN
+
 g. Halla la inversa de "e" (d = inversa(e))
+
 h. (e*d) es congruente con 1 en módulo phiN
+
 i. Retorna los valores "e", "d" y "n"
 
 ```
