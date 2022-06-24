@@ -92,8 +92,6 @@ def RSA(k):
             break
     n=p*q
     phi_n=(p-1)*(q-1)
-    print(p)
-    print(q)
     while (True):
         e=random.randint(2,n-1)
         if(euclides(e,phi_n )==1):
