@@ -30,15 +30,15 @@ RSA.py
 
 - Se procede a calcular phin_n = (p-1)(q-1)
 
-- phi(n): Halla la cantidad de números coprimos menores a "n" con respecto a "n"
+- Calculamos los números coprimos menores a "n"
 
-- Genera un número "e" tal que sea coprimo con phiN
+- Generamos un número "e" tal que sea coprimo con phi_n
 
-- Halla la inversa de "e" (d = inversa(e))
+- Tenemos que la multiplicacion de "e" y "d" es congruente con 1 en módulo phi_n
 
-- (e*d) es congruente con 1 en módulo phiN
+- Calculamos la inversa de "e" que vendria a estar dada por "d" (d = inverso(e,phin_n))
 
-- Retorna los valores "e", "d" y "n"
+- Finalmente la funcion retorna los valores "e", "d" y "n"
 
 ```
 def RSA(k):
