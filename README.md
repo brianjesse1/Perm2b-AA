@@ -42,20 +42,24 @@ RSA.py
 - Finalmente la funcion retorna los valores "e", "d" y "n"
 
 ```
-def RSA(k):
+def RSA(k):    
     p=Random_primos(int(k/2))
     while (True):
         q=Random_primos(int(k/2))
         if (p!=q):
             break
     n=p*q
-    phi_n=(p-1)(q-1)
+    phi_n=(p-1)*(q-1)
+    print(p)
+    print(q)
     while (True):
         e=random.randint(2,n-1)
         if(euclides(e,phi_n )==1):
-            break
-    d=inverso(e,phi_n)
+            break    
+    d=inverso(e,phi_n)    
     return e,d,n
+    
+e,d,n=RSA(54)
 ```
 
 #### *Output:*
