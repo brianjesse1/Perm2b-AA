@@ -71,6 +71,26 @@ def RSA(k):
 - El sistema RSA-64 procede a decifrar un "mensaje" utilizando las llaves "d" y "n"
 
 ```
+lista=[]
+print("-"*64)
+print("|{:^20}|{:^20}|{:^20}|".format("m","c=m^e mod n","m'=c^d mod n"))
+print("-"*64)
+for i in range(10):
+    m = random.randint(2, n-1)
+    while(True):
+        if (m not in lista):
+            lista.append(m)
+            c = EXPMOD(m, e, n)
+            m_i = EXPMOD(c, d, n)
+            print("|{:^20}|{:^20}|{:^20}|".format(m,c,m_i))
+            break
+        else:
+            m = random.randint(2, n-1)
+print("-"*64)
+```
+
+#### *Output:*
+```
 ----------------------------------------------------------------
 |         m          |    c=m^e mod n     |    m'=c^d mod n    |
 ----------------------------------------------------------------
@@ -86,5 +106,3 @@ def RSA(k):
 |  4996108318984723  | 11955745065604279  |  4996108318984723  |
 ----------------------------------------------------------------
 ```
-
-#### *Output:*
