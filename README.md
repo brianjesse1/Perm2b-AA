@@ -31,13 +31,10 @@ RSA.py
 
 - Se procede a calcular phin_n = (p-1)(q-1)
 
-- Calculamos los números coprimos menores a "n"
+- Para el valor de "e" generamos numeros random, que con el algoritmo de Euclides verificamos si "e" y phi_n son coprimos
 
-- Generamos un número "e" tal que sea coprimo con phi_n
-
-- Tenemos que la multiplicacion de "e" y "d" es congruente con 1 en módulo phi_n
-
-- Calculamos la inversa de "e" que vendria a estar dada por "d" (d = inverso(e,phin_n))
+- Calculamos la inversa donde la funcion "inversa" emplea tanto el algoritmo de Euclidos como el Extendido de euclides para hallar el valor  de "d" (d =
+= inverso(e,phin_n))
 
 - Finalmente la funcion retorna los valores "e", "d" y "n"
 
