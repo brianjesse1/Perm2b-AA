@@ -48,7 +48,7 @@ def RSA(k):
         q=Random_primos(int(k/2))
         if (p!=q):
             break
-    n=pq
+    n=p*q
     phi_n=(p-1)(q-1)
     while (True):
         e=random.randint(2,n-1)
