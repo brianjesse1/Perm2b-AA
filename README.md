@@ -14,7 +14,8 @@ Perm2b-Algebra Abstracta
 
 #### **1) Implementar RSA KEY GENERATOR**
 
-- El código funciona con normalidad hasta un "k" de 59, despues del 60 no llega a generar las llaves. El constructor de "RSA_KEY_GENERATOR" busca una forma en que si hay un error con la encriptación y descencriptación aumente el "s" para el funcionamiento de "MILLER_RABIN" en razón de 10^n (10^1 = 10, 10^2 = 100, etc.).
+#### - Funcionamiento:
+El código funciona con normalidad hasta un "k" de 59, despues del 60 no llega a generar las llaves. El constructor de "RSA_KEY_GENERATOR" busca una forma en que si hay un error con la encriptación y descencriptación aumente el "s" para el funcionamiento de "MILLER_RABIN" en razón de 10^n (10^1 = 10, 10^2 = 100, etc.).
 
 #### *Output:*
 
