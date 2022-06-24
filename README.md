@@ -62,7 +62,7 @@ def RSA(k):
 
 #### *Output:*
 
-![image](https://user-images.githubusercontent.com/90937895/175451909-09fc7eec-29bb-4759-89b1-9a2659a9249d.png)
+
 
 
 
