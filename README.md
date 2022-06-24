@@ -1,5 +1,5 @@
 # Perm2b-AA
-Perm2b-Algebra Abstracta
+#### ** Perm2b-Algebra Abstracta
 
 **Integrantes**
 
@@ -22,13 +22,13 @@ RSA.py
 #### **1) Implementar RSA KEY GENERATOR**
 
 #### Funcionamiento:
-- Recibe como parámetro un número "K" de bits.
+- La funcion recibe como parametro la variable "k", el cual contiene el numero de bits.
 
-- Genera dos números primos (p,q) que ocupan la mitad de "K" bits cada uno.
+- Seguidamente se generan los numeros primos "p" y "q", los cuales tienen la mitad de "k" bits cada uno correspondientemente 
 
-- Multiplica los números (n=p*q)
+- Se multiplica los números "p" y "q" 
 
-- Halla phiN (phiN = phi(n))
+- Se procede a calcular phin_n = (p-1)(q-1)
 
 - phi(n): Halla la cantidad de números coprimos menores a "n" con respecto a "n"
 
