@@ -23,13 +23,13 @@ RSA.py
 
 #### Funcionamiento:
 
-- Random_primos es una funcion anteriormente estudiada de Miller Rabin la cual nos genera si un numero es primo retornando true o false
-
 - La funcion recibe como parametro la variable "k", el cual contiene el numero de bits.
 
 - Seguidamente se generan los numeros primos "p" y "q", los cuales tienen la mitad de "k" bits cada uno correspondientemente 
 
 - Se multiplica los números "p" y "q" 
+
+- Random_primos es una funcion anteriormente estudiada de Miller Rabin la cual nos genera si un numero es primo retornando true o false
 
 - Se procede a calcular phin_n = (p-1)(q-1)
 
