@@ -21,7 +21,7 @@ RSA.py
 
 #### **1) Implementar RSA KEY GENERATOR**
 
-#### - Funcionamiento:
+#### Funcionamiento:
 - Recibe como parámetro un número "K" de bits.
 
 - Genera dos números primos (p,q) que ocupan la mitad de "K" bits cada uno.
