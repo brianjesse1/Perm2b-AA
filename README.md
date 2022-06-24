@@ -58,8 +58,6 @@ def RSA(k):
             break    
     d=inverso(e,phi_n)    
     return e,d,n
-    
-e,d,n=RSA(54)
 ```
 
 #### *Output:*
