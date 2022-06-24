@@ -25,11 +25,9 @@ RSA.py
 
 - La funcion recibe como parametro la variable "k", el cual contiene el numero de bits.
 
-- Seguidamente se generan los numeros primos "p" y "q", los cuales tienen la mitad de "k" bits cada uno correspondientemente 
+- Seguidamente se generan los numeros primos "p" y "q", los cuales tienen la mitad de "k" bits cada uno correspondientemente. Utilizando la funcion Random_primos que emplea Miller Rabin la cual nos genera si un numero es primo o no lo es. Seguidamente se verifica que "p" y "q" no se repitan. 
 
 - Se multiplica los números "p" y "q" 
-
-- Random_primos es una funcion anteriormente estudiada de Miller Rabin la cual nos genera si un numero es primo retornando true o false
 
 - Se procede a calcular phin_n = (p-1)(q-1)
 
