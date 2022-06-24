@@ -11,6 +11,9 @@ Perm2b-Algebra Abstracta
 
 ------------
 
+#### **Modo de ejecucion:
+
+Para la ejecucion del programa es necesario ejecutar el archivo RSA.py
 
 #### **1) Implementar RSA KEY GENERATOR**
 
