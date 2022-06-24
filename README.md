@@ -11,10 +11,5 @@ Perm2b-Algebra Abstracta
 
 ------------
 
-#### **El Cifrado Afín**
 
-
- Este se realizo mediante el lenguaje de programacion python.  
-  
- 
- DESCRIPCIÓN:
+#### **1) Implementar RSA KEY GENERATOR**
