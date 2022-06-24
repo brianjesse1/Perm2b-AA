@@ -22,6 +22,7 @@ RSA.py
 #### **1) Implementar RSA KEY GENERATOR**
 
 #### Funcionamiento:
+
 - La funcion recibe como parametro la variable "k", el cual contiene el numero de bits.
 
 - Seguidamente se generan los numeros primos "p" y "q", los cuales tienen la mitad de "k" bits cada uno correspondientemente 
@@ -58,5 +59,11 @@ def RSA(k):
 #### *Output:*
 
 #### **2) Crear un sistema RSA-64 (de k = 64 bits), y mostrar los valores para e, d y n. Generar una tabla con tres columnas m, c = P(m) y m' = S(c) - en teoría se cumple m' = m. Para las filas usar 10 valores números aleatorios distintos para m.**
+
+- Se procede a calcular phin_n = (p-1)(q-1)
+
+- Calculamos los números coprimos menores a "n"
+
+- Generamos un número "e" tal que sea coprimo con phi_n
 
 #### *Output:*
