@@ -60,6 +60,11 @@ def RSA(k):
 
 #### *Output:*
 
+![image](https://user-images.githubusercontent.com/90937895/175451909-09fc7eec-29bb-4759-89b1-9a2659a9249d.png)
+
+
+
+
 #### **2) Crear un sistema RSA-64 (de k = 64 bits), y mostrar los valores para e, d y n. Generar una tabla con tres columnas m, c = P(m) y m' = S(c) - en teoría se cumple m' = m. Para las filas usar 10 valores números aleatorios distintos para m.**
 
 - El sistema RSA-64 procede a cifrar un "mensaje" utilizando las llaves "e" y "n"
