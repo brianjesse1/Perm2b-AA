@@ -43,9 +43,11 @@ RSA.py
 
 ```
 def RSA(k):
-    a=Random_primos(int(k/2))
-    p=a[0]
-    q=a[1]
+    p=Random_primos(int(k/2))
+    while (True):
+        q=Random_primos(int(k/2))
+        if (p!=q):
+            break
     n=pq
     phi_n=(p-1)(q-1)
     while (True):
