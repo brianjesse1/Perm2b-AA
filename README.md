@@ -1,5 +1,5 @@
 # Perm2b-AA
-#### ** Perm2b-Algebra Abstracta
+####  Perm2b-Algebra Abstracta
 
 **Integrantes**
 
@@ -11,7 +11,7 @@
 
 ------------
 
-#### **Modo de ejecucion:
+#### Modo de ejecucion:
 
 Para la ejecucion del programa es necesario ejecutar el archivo:
 
